@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>  
+</head>
+<body>
+    <header>
+     <h1>star school</h1>
+    </header>
+    <main>
+        <section>
+            <ol>
+                <li>list of main subjects offered</li>
+                    <ul>
+                        <li>Mathematics</li>
+                        <li>English</li>
+                        <li>Kiswahili</li>
+                        <li>Computer studies</li>
+                    </ul>
+                <li>List of technical subjects</li>
+                  <ul>
+                    <li>Agriculture</li>
+                    <li>Home science</li>
+                    <li>art and media</li>
+                  </ul>
+            </ol>
+            
+
+        </section>
+        <section>
+            <h2>List of students</h2>
+            <table border>
+                
+                <tbody>
+                    <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Dormitory</th>
+                    <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Mary Doe</td>
+                        <td>4 South</td>
+                        <td>Kilimanjaro</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Anne Marie</td>
+                        <td>3 North</td>
+                        <td>Mau</td>
+                        <td> 14</td>
+                    </tr>
+                    
+
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Image</h2>
+            <img src="pexels-david-besh-884788.jpg"alt="sunset" height="360" width="640"></img>
+        </section>
+        <section>
+            <h2>Audio</h2>
+            <audio src="Sia - The Greatest (Lyrics).mp3" 
+            controls autoplay muted loop> Your browser does not support the audio tag </audio>
+        </section>
+        <section>
+            <h2>video</h2>
+            <video src="6394054-uhd_4096_2048_24fps.mp4" 
+            controls autoplay muted loop height="360" width="640">Your browser does not support the video tag</video>
+        </section>
+        <section>
+            <h2>student form</h2>
+            <form autocomplete="off" gap="1">
+                <label>Name</label>
+                <input type="text" name="name"placeholder="name" required/>
+                <br><br>
+                <label>Age</label>
+                <input type="number"name="age" placeholder="age" min="18" max="25" required/>
+                <br><br>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="janedoe@gmail.com" required/>
+                <br><br>
+                <label>DOB</label>
+                <input type="date" name="date" placeholder="DOB" required/>
+                <br><br>
+                <label>Gender</label>
+                <select name="gender" title="gender"  required>
+                    <option value="">--Select</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label>question:</label>
+                <textarea type="text" placeholder="type something here..."></textarea>
+                <br><br>
+                <button type="submit" >submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
